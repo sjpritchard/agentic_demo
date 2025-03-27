@@ -1,0 +1,4 @@
+Always consult documentation for libraries using available tools.
+Apply KISS, YAGI and SOLID principles.
+Use pytest for testing.
+Generate complete tests for the application.
