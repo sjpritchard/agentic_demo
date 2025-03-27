@@ -1,6 +1,6 @@
 Feature: Data loader
 
-    The data loader is a simple script that loads a set of aircraft markdown files
+    The data loader is a simple script that loads a set of text files
     from the /data folder and ingests them into the vector database.
     Keep it simple as it will be run once at the start of the project.
     Use hard coded paths and settings for now.
