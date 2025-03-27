@@ -1,4 +1,7 @@
-Always consult documentation for libraries using available tools.
+Always read documentation for libraries using the Tavily search and extract tool.
 Apply KISS, YAGI and SOLID principles.
 Use pytest for testing.
 Generate complete tests for the application.
+Use the Playwright tool to search for appropriate libraries on https://pypi.org/.
+Use uv for Python dependency management. Note that it uses pyproject.toml and not requirements.txt.
+Read the uv documentation at https://docs.astral.sh/uv/ so you know how to use it.
