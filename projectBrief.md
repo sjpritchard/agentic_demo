@@ -16,7 +16,10 @@ Specification files: /specs
 Read the specification file for each app.
 
 # Data
-You will need to search and extract content from wikipedia using the Tavily search and extract tool to obtain the source data for the vector DB. Obtain data for the following aircraft:
+You will need to search and extract content from https://www.wikipedia.org/ using the Tavily search and extract tool to obtain the source data for the vector DB.
+Don't write any code to do this - do it yourself directly.
+
+Obtain data for the following aircraft:
 
 - B-1 Lancer
 - F-117A Nighthawk
@@ -35,11 +38,11 @@ Embedding model: text-embedding-3-large
 Text Generation Model: GPT-4o
 Vector database: ChromaDB
 
-# Documentation
-Consult the following documentation BEFORE writing any code:
+# Library Documentation
+Consult the following documentation BEFORE writing any code to ensure that you use the right libraries, classes, methods and parameters:
 
 OpenAI Python SDK: https://github.com/openai/openai-python
-Model Context Protocol: https://modelcontextprotocol.io/llms-full.txt
+MCP: https://modelcontextprotocol.io/llms-full.txt
 ChromaDB: https://docs.trychroma.com/docs
 
 # API Keys

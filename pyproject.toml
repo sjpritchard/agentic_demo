@@ -4,9 +4,9 @@ version = "0.1.0"
 description = "MCP RAG Server for Warplane Information"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
