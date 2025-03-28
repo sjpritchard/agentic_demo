@@ -40,7 +40,7 @@ The OPENAI_API_KEY environment variable has been configured.
 # Steps
 1. Create the memory bank
 2. Perform planning
-3. Research library documentation
+3. Research library documentation using available tools to determine versions and correct invocation
 4. Write your library research to memory-bank/libraries.md
 5. Implement the solution
 6. Install dependencies

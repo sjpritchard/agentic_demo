@@ -1,17 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
-name = "agentic-demo"
+name = "warplanes-rag"
 version = "0.1.0"
-description = "MCP RAG Server for Warplane Information"
+description = "A Python MCP RAG server for information on modern warplanes"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Warplanes RAG Team" },
+]
 dependencies = [
+
+]
+packages = [
+    { include = "warplanes_rag", from = "src" }
 ]
 
 [project.optional-dependencies]
 dev = [
 
-]
-
-[dependency-groups]
-dev = [
 ]
