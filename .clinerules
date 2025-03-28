@@ -4,4 +4,6 @@ Generate complete tests for the application.
 Search for appropriate libraries and versions on https://pypi.org/.
 Use uv for Python dependency management. Note that it uses pyproject.toml and not requirements.txt.
 Always install the latest version of each library.
-Read the uv documentation at https://docs.astral.sh/uv/ so you know how to use it.
+Use "uv add packagename" to add a package, eg uv add openai
+Use "uv add --dev packagename" to add a dev package, eg uv add --dev pytest
+Install the ruff package for linting and formatting

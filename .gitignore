@@ -20,28 +20,26 @@ wheels/
 .installed.cfg
 *.egg
 
-# Environment
-.env
-.venv
-env/
+# Virtual environments
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
+.env
 
-# ChromaDB
-chroma_db/
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# Logs
-*.log
-logs/
-
-# OS
 .DS_Store
-Thumbs.db
+
+# Project specific
+.chroma/

@@ -17,7 +17,9 @@ Read the specification file for each app.
 
 # Data
 The data consists of one or more text files under /data.
-Each data file contains information on a specific aircraft.
+Each data file contains information on a specific aircraft in plain text format.
+Don't try to read the files yourself as they are very large.
+An initial file has been provided but more could exist in future
 
 # Services, Models and Libraries to use
 LLM Provider: OpenAI

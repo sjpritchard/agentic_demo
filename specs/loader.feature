@@ -8,6 +8,7 @@ Feature: Data loader
     Example: Load data
         When the data loader is run
         Then the aircraft data is loaded from the /data folder
-        And the aircraft data is chunked into 200 word chunks with a 20 word overlap
+        And the vector database is created or re-created
+        And the aircraft data from each file is chunked into 200 word chunks with a 20 word overlap
         And embeddings are computed for each chunk
         And each chunk and embedding is ingested into the vector database
