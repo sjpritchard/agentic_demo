@@ -26,12 +26,27 @@ Text Generation Model: GPT-4o
 Vector database: ChromaDB
 
 # Libraries
-Use the following libraries in your implementation.
-Consult the associated documentation when planning to ensure that you are using the right libraries, library versions, classes, methods and parameters.
+## Mandatory Libraries
+
+- openai
+- mcp
+- chromadb
+
+## Library Documentation
+
+Research libraries using the following specific URLs and links from those URLs, and then fall back on general search only if required.
 
 openai: https://github.com/openai/openai-python
 mcp: https://modelcontextprotocol.io/llms-full.txt
 chromadb: https://docs.trychroma.com/docs
 
 # API Keys
-The OPENAI_API_KEY variable has been configured.
+The OPENAI_API_KEY rnvironment variable has been configured.
+
+# Steps
+1. Create the memory bank
+2. Perform planning
+3. Research library documentation
+4. Write your library research to memory-bank/libraries.md
+5. Implement the solution
+6. Install dependencies
