@@ -34,16 +34,8 @@ Vector database: ChromaDB
 - mcp
 - chromadb
 
-## Library Documentation
-
-Research libraries using the following specific URLs and links from those URLs, and then fall back on general search only if required.
-
-openai: https://github.com/openai/openai-python
-mcp: https://modelcontextprotocol.io/llms-full.txt
-chromadb: https://docs.trychroma.com/docs
-
 # API Keys
-The OPENAI_API_KEY rnvironment variable has been configured.
+The OPENAI_API_KEY environment variable has been configured.
 
 # Steps
 1. Create the memory bank
