@@ -8,7 +8,7 @@ Use "uv add packagename" to add a package, eg uv add openai
 Use "uv add --dev packagename" to add a dev package, eg uv add --dev pytest
 Install the ruff package for linting and formatting
 
-Read library documention with the firecrawl tool using the following specific URLs and links from those URLs, and then fall back on general search with the tavily tool only if required.
+Read library documention with the firecrawl tool using the following specific URLs and links from those URLs, and then fall back on general search or deep research if required.
 
 openai:
 https://github.com/openai/openai-python
